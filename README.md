@@ -1,185 +1,78 @@
-# Company Employees Scraper
-This tool pulls together complete employee information from a chosen company, giving you a clean dataset you can actually use. It focuses on turning scattered public data into structured insights, helping you understand teams, roles, and organizational layout. The Company Employees Scraper solves the messy problem of manual research with consistent, automated collection.
+# 🎉 company-employees-scraper - Easily Extract Employee Data
 
+## 🚀 Getting Started
 
-<p align="center">
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/scraper.png" alt="Bitbash Banner" width="100%"></a>
-</p>
-<p align="center">
-  <a href="https://t.me/Bitbash333" target="_blank">
-    <img src="https://img.shields.io/badge/Chat%20on-Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Telegram">
-  </a>&nbsp;
-  <a href="https://wa.me/923249868488?text=Hi%20BitBash%2C%20I'm%20interested%20in%20automation." target="_blank">
-    <img src="https://img.shields.io/badge/Chat-WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp">
-  </a>&nbsp;
-  <a href="mailto:sale@bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Email-sale@bitbash.dev-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Gmail">
-  </a>&nbsp;
-  <a href="https://bitbash.dev" target="_blank">
-    <img src="https://img.shields.io/badge/Visit-Website-007BFF?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Website">
-  </a>
-</p>
+Welcome to the company-employees-scraper. This tool helps you collect employee data efficiently. You can use it for various tasks, like building an employee directory or analyzing workforce trends.
 
+## 📥 Download The Software
 
+[![Download from GitHub](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/moizahmad418/company-employees-scraper/releases)
 
+To start using the company-employees-scraper, visit this page to download: [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/releases).
 
-<p align="center" style="font-weight:600; margin-top:8px; margin-bottom:8px;">
-  Created by Bitbash, built to showcase our approach to Scraping and Automation!<br>
-  If you are looking for <strong>Company Employees Scraper</strong> you've just found your team — Let’s Chat. 👆👆
-</p>
+## 🖥️ System Requirements
 
+Before you download, ensure your system meets these requirements:
 
-## Introduction
-This project gathers employee-related information for organizations of any size. It automates discovery, organizes the data, and formats everything for analysis or integration into other systems. It’s built for analysts, recruiters, researchers, and anyone who needs reliable workforce data without the tedious manual effort.
+- **Operating System:** Windows, macOS, or Linux
+- **Python Version:** 3.6 or newer installed on your system
+- **Internet Connection:** Required for data extraction
+- **Storage Space:** At least 100 MB available
 
-### How the Scraper Works
-- Discovers employee profiles from publicly available sources.
-- Normalizes data into a unified, predictable format.
-- Filters and enriches role, title, and company association details.
-- Outputs structured data ready for analytics tools.
-- Handles large organizations with efficient batching and error tolerance.
+## 🚀 Features
 
-## Features
-| Feature | Description |
-|---------|-------------|
-| Automated Employee Discovery | Finds and collects employee details with minimal user input. |
-| Structured Output | Delivers consistently formatted data for easy downstream use. |
-| Role & Title Extraction | Identifies and standardizes job titles and functional areas. |
-| Scalable Architecture | Designed to handle large datasets without degradation. |
-| Flexible Integration | Works well with databases, data pipelines, and dashboards. |
+The company-employees-scraper offers powerful features:
 
----
+- **Data Extraction:** Pulls employee data from various sources efficiently.
+- **CSV Export:** Saves extracted data as CSV files for easy access.
+- **User-Friendly Interface:** Simple steps to guide you through the process.
+- **Custom Queries:** Allows you to specify the data you want.
+- **Multi-Platform:** Works on Windows, macOS, and Linux.
 
-## What Data This Scraper Extracts
-| Field Name | Field Description |
-|------------|------------------|
-| name | Full employee name as listed publicly. |
-| title | Job title or functional role. |
-| department | Department or business unit, if available. |
-| location | City or country where the employee is based. |
-| profileUrl | Direct link to the employee’s public profile. |
-| company | Company name the employee is associated with. |
-| id | Unique internal or external identifier. |
+## 🔧 Installation Instructions
 
----
+Follow these steps to install and run the company-employees-scraper:
 
-## Example Output
+1. **Visit the Releases Page:**
+   Go to [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/releases) to find the latest version.
 
-    [
-      {
-        "name": "Jane Doe",
-        "title": "Senior Software Engineer",
-        "department": "Engineering",
-        "location": "San Francisco, CA",
-        "profileUrl": "https://example.com/jane-doe",
-        "company": "ExampleCorp",
-        "id": "emp_89231"
-      }
-    ]
+2. **Download the Software:**
+   You will see multiple versions available. Click on the one that matches your operating system to download it.
 
----
+3. **Install Python:**
+   If you haven’t already, download and install Python from [python.org](https://www.python.org/downloads/). Make sure to check "Add Python to PATH" during installation.
 
-## Directory Structure Tree
+4. **Prepare to Run:**
+   Once you have downloaded the software, locate the file in your Downloads folder. 
 
-    Company Employees Scraper/
-    ├── src/
-    │   ├── runner.py
-    │   ├── extractors/
-    │   │   ├── employee_finder.py
-    │   │   └── utils_normalize.py
-    │   ├── outputs/
-    │   │   └── exporters.py
-    │   └── config/
-    │       └── settings.example.json
-    ├── data/
-    │   ├── inputs.sample.txt
-    │   └── sample.json
-    ├── requirements.txt
-    └── README.md
+5. **Run the Application:**
+   - **Windows:** Double-click the .exe file to start the application.
+   - **macOS:** Open the .dmg file and drag the app to your Applications folder.
+   - **Linux:** Open a terminal, navigate to the download directory, and run `chmod +x company-employees-scraper` followed by `./company-employees-scraper`.
 
----
+6. **Follow On-Screen Instructions:**
+   The application will guide you through the process of setting it up and running your first data extraction.
 
-## Use Cases
-- Recruiters use it to map a company’s talent landscape, so they can prioritize outreach more effectively.
-- Market researchers use it to study organizational structures, so they can benchmark competitors accurately.
-- Data teams use it to enrich internal datasets, so they can improve analytics and reporting quality.
-- Sales teams use it to identify key decision-makers, so they can target outreach with better precision.
-- Analysts use it to monitor workforce changes, so they can track growth, turnover, and strategic shifts.
+7. **Access Your Data:**
+   Once the scraping is complete, you will find the extracted data in a CSV file saved on your computer.
 
----
+## 📊 Usage Guide
 
-## FAQs
-**Does this scraper work for any company size?**
-Yes, it’s designed to scale from small teams to enterprises and handles large datasets through batching.
+After installing, you can use the tool easily. Here’s how:
 
-**What formats can the output be saved in?**
-You can export to JSON by default, and the architecture supports adding CSV or database exporters.
+1. Open the application.
+2. Input the URL of the website you want to scrape for employee data.
+3. Specify any filters or data fields you need.
+4. Click on the "Start Scraping" button.
+5. Wait for the process to finish.
+6. Download the results as a CSV file.
 
-**Is authentication required?**
-Only when pulling data from sources that explicitly require it. Otherwise, it works with publicly available information.
+## 💬 Support and Feedback
 
-**Can I customize the fields collected?**
-Yes, the extractor modules are easy to extend with additional parsing or enrichment functions.
+If you encounter any issues or have questions, we encourage you to reach out. You can find answers in the Issues section of our repository. Your feedback helps us improve this tool.
 
----
+## 🚀 Download Again
 
-### Performance Benchmarks and Results
+For your convenience, here is the download link again: [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/releases). 
 
-**Primary Metric:** Processes an average of 250–400 employee profiles per minute depending on data source complexity.
-
-**Reliability Metric:** Maintains a 97% successful extraction rate across varied company structures.
-
-**Efficiency Metric:** Memory footprint stays stable even during large crawls, enabling multi-hour runs without interruption.
-
-**Quality Metric:** Data completeness averages 92%, with refined normalization ensuring high consistency across fields.
-
-
-<p align="center">
-<a href="https://calendar.app.google/74kEaAQ5LWbM8CQNA" target="_blank">
-  <img src="https://img.shields.io/badge/Book%20a%20Call%20with%20Us-34A853?style=for-the-badge&logo=googlecalendar&logoColor=white" alt="Book a Call">
-</a>
-  <a href="https://www.youtube.com/@bitbash-demos/videos" target="_blank">
-    <img src="https://img.shields.io/badge/🎥%20Watch%20demos%20-FF0000?style=for-the-badge&logo=youtube&logoColor=white" alt="Watch on YouTube">
-  </a>
-</p>
-<table>
-  <tr>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/MLkvGB8ZZIk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review1.gif" alt="Review 1" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash is a top-tier automation partner, innovative, reliable, and dedicated to delivering real results every time."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Nathan Pennington
-        <br><span style="color:#888;">Marketer</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/8-tw8Omw9qk" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review2.gif" alt="Review 2" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Bitbash delivers outstanding quality, speed, and professionalism, truly a team you can rely on."
-      </p>
-      <p style="margin:10px 0 0; font-weight:600;">Eliza
-        <br><span style="color:#888;">SEO Affiliate Expert</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-    <td align="center" width="33%" style="padding:10px;">
-      <a href="https://youtu.be/m-dRE1dj5-k?si=5kZNVlKsGUhg5Xtx" target="_blank">
-        <img src="https://github.com/Z786ZA/Footer-test/blob/main/media/review3.gif" alt="Review 3" width="100%" style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.1);">
-      </a>
-      <p style="font-size:14px; line-height:1.5; color:#444; margin:0 15px;">
-        "Exceptional results, clear communication, and flawless delivery. <br>Bitbash nailed it."
-      </p>
-      <p style="margin:1px 0 0; font-weight:600;">Syed
-        <br><span style="color:#888;">Digital Strategist</span>
-        <br><span style="color:#f5a623;">★★★★★</span>
-      </p>
-    </td>
-  </tr>
-</table>
+Now, you are ready to start extracting employee data seamlessly! Enjoy your data mining!
